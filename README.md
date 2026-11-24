@@ -138,5 +138,14 @@ ppd/        PPD template
 packaging/  installer metadata, add-printer and uninstall scripts
 tools/      build-time halftone table generator
 tests/      self-tests, decoder, emulator harness, reference outputs
-docs/       the printer's data format
+docs/       the printer's data format, and the write-up
 ```
+
+## Licence
+
+[MIT](LICENSE). It covers this project's own code and documentation. It does
+not cover Brother's halftone screens or printer icon, which are not in this
+repository; the build only reads them from a Brother driver you already have.
+
+Brother and HL-1210W are trademarks of Brother Industries, Ltd. This project is
+not affiliated with or endorsed by Brother.
