@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Template for pkgbuild.  overwrite-permissions="false" keeps the installer
+     from changing the owner or mode of folders that already exist, such as
+     /Library/Printers. -->
+<pkg-info overwrite-permissions="false" relocatable="false" auth="root" postinstall-action="none"/>
